@@ -1,0 +1,21 @@
+
+delta f = resolução na freq
+delta t = resolução no tempo
+fs = freq de amostragem
+f = freq do sinal
+N = números de amostras
+
+
+
+delta t = 1 / fs
+
+delta f = fs / ( N * delta t)
+
+
+Sk = coefs da DFT
+sn = s(nT) = s(n/fs) <- discretização do sinal
+
+Sk = sum{n=0, N-1} ( sn )
+
+S0 / N = (1 / n) * sum{n=0, N-1} (sn)
+
